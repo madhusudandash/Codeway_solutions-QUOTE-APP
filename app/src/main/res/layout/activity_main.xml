@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Quote" />
+
+    <Button
+        android:id="@+id/btnAddQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextQuote"
+        android:layout_marginTop="8dp"
+        android:text="Add Quote" />
+
+    <Button
+        android:id="@+id/btnShareQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAddQuote"
+        android:layout_marginTop="8dp"
+        android:text="Share Quote" />
+
+    <Button
+        android:id="@+id/btnDeleteQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnShareQuote"
+        android:layout_marginTop="8dp"
+        android:text="Delete Quote" />
+
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDeleteQuote"
+        android:layout_marginTop="8dp"
+        android:text="Refresh" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRefresh"
+        android:layout_marginTop="8dp"
+        android:text="Share" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnShare"
+        android:layout_marginTop="8dp"
+        android:text="Exit" />
+
+</RelativeLayout>
+
